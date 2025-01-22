@@ -10,3 +10,6 @@
 - [Software  Diagram]()
 
 
+- [weightsensor video](https://circuitdigest.com/microcontroller-projects/arduino-weight-measurement-using-load-cell)
+
+
