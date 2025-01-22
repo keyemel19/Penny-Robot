@@ -1,7 +1,7 @@
 ## Hardware Components
-- Motors (DC, Servos)
+- Motors (dc motors) & motor controller
 - Battery
-- Sensors (Weight, IR)
+- Sensors (Weight, IR, precisions) motion sensors
 - Wires
 - circuit board
 - Arduino
