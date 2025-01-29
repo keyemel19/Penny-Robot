@@ -3,7 +3,7 @@
 - Battery
 - Weight Sensor 
 - Wires
-- circuit board
+- solder board
 - Arduino
 
 ## Tools
