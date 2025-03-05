@@ -1,9 +1,9 @@
 ## Hardware Components
-- Step Motor
+- DC Motor
 - Battery
-- Weight Sensor 
+- Weight Sensor with HX711
 - Wires
-- solder board
+- L29*N Motor Driver
 - Arduino
 
 ## Tools
