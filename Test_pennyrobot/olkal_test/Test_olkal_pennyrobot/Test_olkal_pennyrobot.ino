@@ -63,11 +63,11 @@ void loop() {
 
   // check for new data/start next conversion:
   if (LoadCell.update()) newDataReady = true;
-
+  float weight;
   // get smoothed value from the dataset:
   if (newDataReady) {
     if (millis() > t + serialPrintInterval) {
-      float weight = LoadCell.getData();
+      weight = LoadCell.getData();
       Serial.print("Load_cell output val: ");
       Serial.println(weight);
       newDataReady = 0;
@@ -82,6 +82,7 @@ void loop() {
         analogWrite(ENA, motorSpeed);  // Adjust motor speed
         Serial.print("Motor Speed: ");
         Serial.println(motorSpeed);
+        Serial.print(weight);
     } else {
         analogWrite(ENA, 0);  // Stop motor when no weight
         Serial.println("Motor Stopped");
